@@ -1,0 +1,151 @@
+.grid{
+  display: grid;
+  grid-template-columns: auto 39px 300px 60px 300px 60px 300px 39px auto;
+   grid-template-rows: 100px 450px 475px 50px;
+}
+
+.header{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 1;
+}
+
+.logo{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row: 1;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.lijn{
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row: 1;
+  padding-top: 25px;
+}
+
+.lijntje{
+  display: inline;
+  padding-left: 32px;
+}
+
+.bannerbg{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 2;
+}
+
+.banner{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 2;
+  padding-top: 20px;
+}
+
+.titel{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row: 2;
+  color: white;
+  font-size: 150%;
+  padding-top: 20px;
+}
+
+.tekst{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row: 2;
+  padding-top: 80px;
+  color: white;
+}
+
+.fadeslider{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row: 3;
+}
+
+.titiel{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row: 3;
+  padding-top: 150px;	
+}
+
+.tekst2{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row: 3;
+  padding-top: 200px;
+}
+
+.nivoslider{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row: 3;
+}
+
+.titiel2{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row: 3;
+  padding-top: 150px;	
+}
+
+.tekst3{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row: 3;
+  padding-top: 200px;
+}
+
+.bonus{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row: 3;
+}
+
+.titiel3{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row: 3;
+  padding-top: 150px;	
+}
+
+.tekst69{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row: 3;
+  padding-top: 200px;
+}
+
+.footer{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 4;
+}
+
+.naam{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row: 4;
+  text-align: center;
+  color: white;
+}
+
+h1, h2, li, p{
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+  font-size: 14px;
+}
+
+h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 20px;
+}
